@@ -1,0 +1,76 @@
+/*@font-face {
+    font-family:Gotham-Light;
+    font-weight:normal; 
+    font-style:normal; 
+    src: url('/fonts/gotham-light.otf');
+}*/
+@font-face {
+    font-family:Gotham-Book;
+    font-weight:normal;
+    font-style:normal;
+    src: url('/fonts/gotham-book.otf');
+}
+@font-face { 
+    font-family:Gotham-Medium; 
+    font-weight:normal; 
+    font-style:normal; 
+    src: url('/fonts/gotham-medium.otf');
+}
+body {
+    padding: 50px;
+    font: 14px Gotham-Light, Helvetica, Arial, sans-serif;
+}
+b {
+    font-family:Gotham-Book,helvetica,arial;
+}
+a {
+    color: #00B7FF;
+}
+h1 {
+    font-family:Gotham-Book, "Comic Sans MS",helvetica,arial;
+    font-weight:normal;
+}
+h2 {
+    font-family:Gotham-Book,helvetica,arial;
+    font-weight:normal;
+}
+h3 {
+    font-family:Gotham-Book,helvetica,arial;
+    font-weight:normal;
+}
+.menu {
+    background:#252525;
+    height:30px;
+}
+.menu ul {
+}
+.menu li {
+    color:#fff;
+    float:left;
+    font-size:20px;
+    list-style-type:none;
+    margin: 5px 0px 5px 0px;
+    text-align: center;
+    width: 100px;
+}
+.views-wrapper {
+    border:1px solid #252525;
+    min-height:200px;
+    text-align:center;
+}
+.login {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    text-align:right;
+    width:235px;
+}
+.login #login-button, #logout-button {
+    background:#252525;
+    border:none;
+    color:#fff;
+    height:20px;
+    margin:10px 68px 0px 68px;
+    text-align:center;
+    width:99px;
+}
